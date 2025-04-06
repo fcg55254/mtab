@@ -1,0 +1,27 @@
+name = "mtab"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mtab-database"
+database_id = "your-database-id-here"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "your-kv-namespace-id-here"
+preview_id = "your-kv-preview-id-here"
+
+[[turnstile]]
+binding = "TURNSTILE"
+site_key = "your-site-key-here"
+secret_key = "your-secret-key-here"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./public"
+
+[env.production]
+workers_dev = true 
