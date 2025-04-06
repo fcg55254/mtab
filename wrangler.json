@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "mtab",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "51a367c2-c4b5-457e-93d6-d35dddab2066",
+      "database_name": "delicate-sunset-262b-d1"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
