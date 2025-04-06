@@ -11,12 +11,8 @@
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
-    "@hono/node-server": "^1.4.0",
-    "drizzle-orm": "^0.29.3",
-    "hono": "^3.12.8",
-    "hono/cors": "^3.12.8",
-    "hono/logger": "^3.12.8",
-    "hono/pretty-json": "^3.12.8"
+    "hono": "^4.0.0",
+    "drizzle-orm": "^0.29.3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
